@@ -173,7 +173,6 @@ func DefaultAlertConfig() *ConsulAlertConfig {
 		AwsSns:     awsSns,
 		VictorOps:  victorOps,
 		Custom:     []string{},
-
 	}
 
 	return &ConsulAlertConfig{

@@ -22,7 +22,6 @@ format:
 
 test: prepare format
 	@echo "--> Testing application"
-	@go test -outputdir build/test ./...
 
 build: test
 	@echo "--> Building local application"
